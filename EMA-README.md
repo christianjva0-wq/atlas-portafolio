@@ -20,3 +20,9 @@ Calendly histórico no utilizado (404); Doctoralia no ofrece reserva online en l
 ## Accesibilidad y rendimiento
 
 Diseño adaptable, campos etiquetados, estados de selección accesibles, foco visible, compatibilidad con movimiento reducido. Animaciones CSS y revelados observados una sola vez; sin WebGL, vídeos ni bucles continuos de JavaScript.
+
+## Revisión 2 — escultura y profundidad
+
+Esta revisión usa `ema-motion.js` (Three.js 0.170.0, licencia MIT adjunta) para renderizar una escultura paramétrica original: nudo de toro cerámico y aro metálico. Sin modelos descargados ni HDRI externos. La iluminación de entorno se genera con RoomEnvironment. El giro responde al scroll, puntero y botón; render bajo demanda, sin animación continua. DPR máximo 1.6 escritorio/1.25 móvil. Fallback CSS cuando WebGL no esté disponible. Control de pausa y prefers-reduced-motion.
+
+Capítulo en perspectiva: 200svh escritorio/175svh móvil, pin nativo de un viewport, paneles con separación reversible al desplazarse. Mapa Google Maps integrado por domicilio; su disponibilidad depende de Google. Nuevo diseño de portada, agenda, retratos y contacto.
